@@ -5,9 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/_GameRef/Scenes/Cena.unity
     guid: ecc6b832f62155f45a37c03285bb4bd5
+  - enabled: 1
+    path: Assets/_GameRef/Scenes/CenaVR.unity
+    guid: 4f8844d0a196de746adcf35898b2b8a3
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: df88e25f72aba25468d735035ee53948,
       type: 2}
