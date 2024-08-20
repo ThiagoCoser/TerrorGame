@@ -6543,6 +6543,11 @@ PrefabInstance:
       propertyPath: lookSpeed
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 593349162064156541, guid: e57c3760ae8d5b44190b23d2f2792008,
+        type: 3}
+      propertyPath: moveSpeed
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3750188728662656708, guid: e57c3760ae8d5b44190b23d2f2792008,
         type: 3}
       propertyPath: m_IsActive
