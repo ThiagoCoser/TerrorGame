@@ -6,10 +6,12 @@ using UnityEngine.UI;
 
 public class NPC_Trigger : MonoBehaviour
 {
+    [TextArea(5, 5)]
+    public string meuTexto;
 
-    public GameObject gameCanvas;
-    public GameObject NPCanvasText;
-    public string npcTextToShow;
+    private GameObject gameCanvas;
+    private GameObject NPCanvasText;
+    private string npcTextToShow;
 
     private void Start()
     {
@@ -23,7 +25,7 @@ public class NPC_Trigger : MonoBehaviour
         if (other.CompareTag("Player"))
         {
 
-            npcTextToShow = "OLÁ, EU SOU UM TRIGGER. NÃO ENTRE NA CASA!";
+            npcTextToShow = meuTexto;
             NPCanvasText.GetComponent<TextMeshProUGUI>().text = npcTextToShow;
             NPCanvasText.SetActive(true);
 
